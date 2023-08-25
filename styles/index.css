@@ -1,0 +1,31 @@
+.link{
+    color: chocolate;
+    background-color: aquamarine;
+    text-align: center;
+}
+a{
+    color: red;
+    text-decoration: none;
+    background-color: green;
+    font-size: 50px;
+    padding: 5px 15px;
+    border: 5px solid blue;
+    margin-left: 15px;
+    margin-right: 15px;
+    box-shadow: 5px 5px 10px black;
+    text-shadow: 3px 3px 3px black;
+}
+a:hover{
+    color: white;
+    background-color: black;
+}
+a:active{
+    color: yellow;
+}
+a:visited{
+    color: tomato;
+    background-color: blue;
+}
+ul{
+    list-style-type:  decimal-leading-zero;
+}
