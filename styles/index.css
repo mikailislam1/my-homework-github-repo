@@ -44,3 +44,26 @@ ul{
     color: red;
     text-shadow: 2px 2px 2px black;
 }
+.overflow1{
+    border: 3px solid red;
+    width: 400px;
+    margin: auto;
+    box-shadow: 5px 5px 3px;
+}
+.overflow2{
+    border: 3px solid green;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 5px 5px 3px;
+}
+.overflow3{
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    border: 5px solid blue;
+    /* overflow: visible; */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    overflow: auto;/*auto & scroll same*/
+    box-shadow: 5px 5px 3px;
+}
