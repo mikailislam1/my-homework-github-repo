@@ -26,6 +26,21 @@ a:visited{
     color: tomato;
     background-color: blue;
 }
+.list{
+    color: tomato;
+    background-color: aqua;
+    text-align: center;
+}
 ul{
     list-style-type:  decimal-leading-zero;
+    list-style-position: outside;
+    /* list-style-image: url('images/done.png'); */
+
+
+}
+.big{
+    font-size: 30px;
+    font-family: cursive;
+    color: red;
+    text-shadow: 2px 2px 2px black;
 }
